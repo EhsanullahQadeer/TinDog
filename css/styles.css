@@ -133,7 +133,7 @@ p {
 
 /* Footer */
 #footer {
-  padding: 1% 15%;
+  padding: 1% 0%;
   text-align: center;
 }
 
@@ -158,16 +158,41 @@ p {
 }
 
 @media (max-width: 1028px) {
-.container-navbar{
+#navbar{
   padding: 5% 2%;
+}
+.navbar-brand{
+  font-size: 3rem;
+}
+.nav-font{
+  font-size: 2rem;
+  color: black;
 }
   .title-not-nav {
     text-align: center;
+  }
+  .container-fluid {
+    padding: 7% 0;
   }
 
   .title-image {
     position: static;
     transform: rotate(0deg);
     width: 60%;
+  }
+  .carousel-item {
+    padding: 7% 0%;
+  }
+  #cta {
+
+    padding: 7% 0%;
+  }
+  #footer {
+    padding: 5% 0%;
+    text-align: center;
+  }
+
+  .social-icon {
+    margin: 20px 35px;
   }
 }
