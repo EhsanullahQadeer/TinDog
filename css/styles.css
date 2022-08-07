@@ -158,6 +158,9 @@ p {
 }
 
 @media (max-width: 1028px) {
+.container-navbar{
+  padding: 5% 2%;
+}
   .title-not-nav {
     text-align: center;
   }
